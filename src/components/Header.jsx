@@ -50,7 +50,7 @@ function Header() {
       <Link className={claseCss} to="/tools">
         <ToolsIcon />
       </Link>
-      <Link className={claseCss} to="/ilstraciones">
+      <Link className={claseCss} to="/ilustraciones">
         <IlstracionesIcon />
       </Link>
       <Link className={claseCss} to="/blog">

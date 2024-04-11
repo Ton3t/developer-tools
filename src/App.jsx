@@ -9,6 +9,9 @@ import Fonts from "./components/Fonts";
 import Colors from "./components/Colors";
 import Collections from "./components/Collections";
 import Librerias from "./components/Librerias";
+import Photos from "./components/Photos";
+import Tresd from "./components/Tresd";
+import Tools from "./components/Tools";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         <Route path="/colors" element={<Colors />} />
         <Route path="/collections" element={<Collections />} />
         <Route path="/librerias" element={<Librerias />} />
+        <Route path="/photos" element={<Photos />} />
+        <Route path="/box" element={<Tresd />} />
+        <Route path="/tools" element={<Tools />} />
       </Routes>
     </div>
   );
