@@ -9,28 +9,5 @@
 }
 
 body {
-  background-color: #1d1d22;
-  opacity: 0.8;
-  background: radial-gradient(
-      circle,
-      transparent 20%,
-      #353585 20%,
-      #0f0f11 80%,
-      transparent 80%,
-      transparent
-    ),
-    radial-gradient(
-        circle,
-        transparent 20%,
-        #1c1c2c 20%,
-        #0b0b2e 80%,
-        transparent 80%,
-        transparent
-      )
-      25px 25px,
-    linear-gradient(#18192c 2px, transparent 2px) 0 -1px,
-    linear-gradient(90deg, #18192c 2px, #2a2a30 2px) -1px 0;
-  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
-
-  color: aqua;
+  color: beige;
 }
