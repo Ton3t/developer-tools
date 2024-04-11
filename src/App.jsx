@@ -12,6 +12,7 @@ import Librerias from "./components/Librerias";
 import Photos from "./components/Photos";
 import Tresd from "./components/Tresd";
 import Tools from "./components/Tools";
+import Ilustraciones from "./Ilustraciones";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/photos" element={<Photos />} />
         <Route path="/box" element={<Tresd />} />
         <Route path="/tools" element={<Tools />} />
+        <Route path="/ilustraciones" element={<Ilustraciones />} />
       </Routes>
     </div>
   );
