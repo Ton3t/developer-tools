@@ -15,7 +15,7 @@ import VideosIcon from "./icons/VideosIcon";
 function Header() {
   const claseCss = "mr-2 w-8";
   return (
-    <nav className="flex flex-wrap m-4">
+    <nav className="flex flex-wrap align-middle justify-center m-4">
       <Link className={claseCss} to="/">
         <HomeIcon />
       </Link>
