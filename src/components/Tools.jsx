@@ -36,6 +36,13 @@ function Tools() {
       src: "../../public/images/rapidapi.png",
       description: "openverse",
     },
+    {
+      id: 6,
+      title: "Mockaroo",
+      url: "https://www.mockaroo.com/",
+      src: "../../public/images/mockaroo.png",
+      description: "Aplicación para generar archivos JSON en un momento. Muy útil.",
+    }
   ];
   return (
     <section className="flex flex-wrap justify-center">
