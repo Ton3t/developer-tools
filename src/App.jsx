@@ -7,6 +7,8 @@ import Icons from "./components/Icons";
 import Videos from "./components/Videos";
 import Fonts from "./components/Fonts";
 import Colors from "./components/Colors";
+import Collections from "./components/Collections";
+import Librerias from "./components/Librerias";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/fonts" element={<Fonts />} />
         <Route path="/colors" element={<Colors />} />
+        <Route path="/collections" element={<Collections />} />
+        <Route path="/librerias" element={<Librerias />} />
       </Routes>
     </div>
   );

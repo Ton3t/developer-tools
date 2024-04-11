@@ -12,6 +12,7 @@ import IlstracionesIcon from "./icons/IlstracionesIcon";
 import PhotosIcon from "./icons/PhotosIcon";
 import ToolsIcon from "./icons/ToolsIcon";
 import VideosIcon from "./icons/VideosIcon";
+import ComponentIcon from "./icons/ComponentIcon";
 function Header() {
   const claseCss = "mr-2 w-8";
   return (
@@ -37,7 +38,7 @@ function Header() {
       <Link className={claseCss} to="/backgrounds">
         <BackgroundsIcon />
       </Link>
-      <Link className={claseCss} to="/books">
+      <Link className={claseCss} to="/librerias">
         <BooksIcon />
       </Link>
       <Link className={claseCss} to="/photos">
@@ -54,6 +55,9 @@ function Header() {
       </Link>
       <Link className={claseCss} to="/blog">
         <BlogIcon />
+      </Link>
+      <Link className={claseCss} to="/components">
+        <ComponentIcon />
       </Link>
     </nav>
   );
