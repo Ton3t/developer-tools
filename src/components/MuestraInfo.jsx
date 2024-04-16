@@ -5,7 +5,7 @@ function MuestraInfo({infoData}) {
       {infoData.map((info) => (
         <div
           key={info.id}
-          className="m-2 w-[280px] h-52 flex flex-wrap overflow-auto items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          className="m-2 w-[280px] h-64 flex flex-wrap overflow-auto items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           <a href={info.url}>
             <img
