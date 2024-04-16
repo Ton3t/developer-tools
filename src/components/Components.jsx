@@ -217,7 +217,7 @@ function Components() {
       id: 29,
       title: "LayerChart",
       url: "https://www.layerchart.com/",
-      src: "./images/svelte-ui.webp",
+      src: "./images/layerchart.webp",
       description: "LayerChart is alarge colection of visualization components and utilities for Svelte, built upon the wonderful Layer Cake framework."
     },
     {
