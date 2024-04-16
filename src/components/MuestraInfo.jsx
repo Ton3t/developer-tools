@@ -1,7 +1,7 @@
 
-function MuestraInfo({infoData}) {
+function MuestraInfo({infoData, key}) {
   return (
-    <section className="flex flex-wrap justify-center w-[1200px]">
+    <section key={key} className="flex flex-wrap justify-center w-[1200px]">
       {infoData.map((info) => (
         <div
           key={info.id}

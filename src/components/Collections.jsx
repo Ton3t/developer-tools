@@ -40,7 +40,7 @@ function Collections() {
   ];
 
   return (
-   <MuestraInfo infoData={infoData} />
+   <MuestraInfo key={infoData.id} infoData={infoData} />
   );
 }
 
