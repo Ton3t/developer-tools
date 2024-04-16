@@ -12,7 +12,7 @@ import Librerias from "./components/Librerias";
 import Photos from "./components/Photos";
 import Tresd from "./components/Tresd";
 import Tools from "./components/Tools";
-import Ilustraciones from "./Ilustraciones";
+import Ilustraciones from "./components/Ilustraciones";
 import Blogs from "./components/Blogs";
 import Components from "./components/Components";
 
